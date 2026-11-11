@@ -1,0 +1,58 @@
+import { MemoryCard } from '../types/game';
+
+export const MEMORY_CARDS: MemoryCard[] = [
+  {
+    id: 'mem_mos',
+    title: 'Pandangan Pertama di Gerbang',
+    characterId: 'all',
+    characterName: 'Masa Orientasi Siswa',
+    description: 'Hari pertama berseragam putih abu-abu. Nametag karton kardus tergantung di leher dan aroma hujan pagi menyambut langkah pertama.',
+    quote: '"Hari itu, takdir membawa kita berdiri di bawah atap koridor yang sama."',
+    sceneType: 'gerbang',
+  },
+  {
+    id: 'mem_loker',
+    title: 'Surat Rahasia di Balik Loker',
+    characterId: 'all',
+    characterName: 'Loker Sekolah',
+    description: 'Sepucuk kertas wangi berlipat segitiga terselip di sela kisi-kisi loker besi nomor 17. Tulisan tangan rapi yang membuat dada berdesir.',
+    quote: '"Semoga harimu menyenangkan. Jangan lupa minum air putih, ya!"',
+    sceneType: 'loker',
+  },
+  {
+    id: 'mem_pensi',
+    title: 'Kilau Lampu Malam Pensi',
+    characterId: 'all',
+    characterName: 'Festival Musik Pensi',
+    description: 'Panggung pentas seni bergemuruh dengan alunan gitar akustik. Lampu gantung berpendar lembut saat jemari kalian tak sengaja bersentuhan.',
+    quote: '"Di tengah ribuan sorak penonton, duniaku cuma fokus padamu."',
+    sceneType: 'pensi',
+  },
+  {
+    id: 'mem_rooftop',
+    title: 'Langit Jingga di Loteng Sekolah',
+    characterId: 'all',
+    characterName: 'Rooftop SMA',
+    description: 'Angin sore membelai helai rambut. Dari atas sini, lapangan upacara terlihat kecil, dan obrolan tentang masa depan terasa begitu sakral.',
+    quote: '"Kalau nanti kita udah lulus... kamu bakal tetap ingat sore ini, kan?"',
+    sceneType: 'rooftop',
+  },
+  {
+    id: 'mem_tryout',
+    title: 'Secangkir Kopi & Rumus Ujian',
+    characterId: 'all',
+    characterName: 'Belajar Bersama',
+    description: 'Buku tebal berserakan di meja kayu. Mengantuk sambil tertawa memecahkan soal integral, ditemani cemilan dan semangat pantang menyerah.',
+    quote: '"Tenang aja, kalau kamu lulus, aku juga pasti bakal nyusul."',
+    sceneType: 'perpustakaan',
+  },
+  {
+    id: 'mem_wisuda',
+    title: 'Coretan Seragam & Janji Abadi',
+    characterId: 'all',
+    characterName: 'Malam Kelulusan',
+    description: 'Kain putih abu-abu kini penuh coretan tanda tangan dan doa teman-teman. Di balik kelulusan, ada rasa cinta yang akhirnya terucap tulus.',
+    quote: '"Seragam ini mungkin kita gantung, tapi cerita kita baru saja dimulai."',
+    sceneType: 'wisuda',
+  },
+];

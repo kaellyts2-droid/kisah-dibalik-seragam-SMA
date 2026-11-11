@@ -1,0 +1,6 @@
+{
+  "name": "Kisah di Balik Seragam",
+  "description": "Visual novel interaktif romansa SMA Indonesia dengan pilihan cerita bercabang, mini-game seru, smartphone HUD, dan multi-ending.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
